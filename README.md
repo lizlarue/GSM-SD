@@ -23,12 +23,13 @@ About the code steps: -----------------------------
 
 06_spearman.R - Creates Fig. S2 output.
 
-07_figures.R - Creates Fig. 1 and 2, and Fig. S3-S5 output. 
+07_figures.R - Creates Fig. 1 and 2 (now Fig. 2 and 3), and Fig. S3-S5 output. 
 
 08_GSM_predictors.R - Creates Table 4 output. 
 
 09_macrosystem_site_ANCOVA.R - Creates Table 5 and Table S1 output. 
 
+10_ExamplePanel.R - Creates a new figure of example GSM-SD rasters. Now Fig. 1
 
 Variable metadata for "NEON28GSM_11172023.csv" for manuscript analysis: -----------------------------
 site - NEON site acronym (standard use id for NEON)	
