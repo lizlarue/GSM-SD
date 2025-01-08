@@ -3,6 +3,8 @@ Project title: Gradient surface metrics of ecosystem structural diversity and th
 
 Authors: Elizabeth A. LaRue (ealarue@utep.edu), Kylie M. Rezendes, Dennis Choi, Jianmin Wang, Anna G. Downing, Songlin Fei, Brady S. Hardiman
 
+Zenodo DOI: 10.5281/zenodo.14617611
+
 About the data:
 Structural diversity metrics were obtained from Wang et al. 2023), which were generated from NEON AOP LiDAR. Landsat 8 Collection 2 - Level 2 data were obtained from USGS Earth Explorer or from the Microsoft Planetary Computer for the download dates specified in "Landsat8DownloadDates.xlsx". The ESRI 10 m land cover is freely available from the Planetary Computer. Randomly sampled points and GSM of structural diversity metrics and NDVI used in analyses are provided in the data folder in file "NEON28GSM_11172023.csv". All raw data are freely available for download from the sources cited in the manuscript or listed above for the 28 NEON sites used. 
 
