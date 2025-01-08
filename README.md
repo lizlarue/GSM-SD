@@ -32,39 +32,75 @@ About the code steps: -----------------------------
 10_ExamplePanel.R - Creates a new figure of example GSM-SD rasters. Now Fig. 1
 
 Variable metadata for "NEON28GSM_11172023.csv" for manuscript analysis: -----------------------------
+
 site - NEON site acronym (standard use id for NEON)	
+
 Index - Index variable from step 04
+
 forest_type - Forest type	 
+
 latitude - Latitude (N) of the NEON site (common coordinate for whole site). WGS1984 
+
 longitude - Longitude (W) of the NEON site (common coordinate for whole site). WGS1984
+
 tap - Total annual precipitation (mm)	
+
 mat - Mean annual temperature (Celsius)	
+
 easting	- Easting (UTM) of subsampled points within each site. Follows UTM zone used by NEON for their sites. 
+
 northing - Northing (UTM) of subsampled points within each site. Follows UTM zone used by NEON for their sites. 	
+
 ndvi - Normalized difference vegetation index 120 m window around subsampled points.	
+
 chm60sq	- Root mean-square Roughness of mean outer canopy height 60 m window around subsampled points
+
 Q2560sq	- Root mean-square Roughness of 25th quantile of canopy height 60 m window around subsampled points
+
 CVH60sq	- Root mean-square Roughness of coefficient of variation of canopy height 60 m window around subsampled points
+
 VCI60sq	- Root mean-square Roughness of vegetation complexity index 60 m window around subsampled points
+
 chm60sbi - Surface Bearing Index of mean outer canopy height 60 m window around subsampled points 	
-Q2560sbi - Surface Bearing Index of 25th quantile of canopy height 60 m window around subsampled points	 
+
+Q2560sbi - Surface Bearing Index of 25th quantile of canopy height 60 m window around subsampled points	
+
 CVH60sbi - Surface Bearing Index of coefficient of variation of canopy height 60 m window around subsampled points	
+
 VCI60sbi - Surface Bearing Index of vegetation complexity index	60 m window around subsampled points
+
 chm60sdr - Surface Area Ratio of mean outer canopy height 60 m window around subsampled points
+
 Q2560sdr - Surface Area Ratio of 25th quantile of canopy height	60 m window around subsampled points
+
 CVH60sdr - Surface Area Ratio of coefficient of variation of canopy height 60 m window around subsampled points	
+
 VCI60sdr - Surface Area Ratio of vegetation complexity index 60 m window around subsampled points	
+
 chm120sq - Root mean-square Roughness of mean outer canopy height 120 m window around subsampled points	
+
 Q25120sq - Root mean-square Roughness of 25th quantile of canopy height	120 m window around subsampled points
+
 CVH120sq - Root mean-square Roughness of coefficient of variation of canopy height 120 m window around subsampled points	
+
 VCI120sq - Root mean-square Roughness of vegetation complexity index 120 m window around subsampled points	
+
 chm120sbi - Surface Bearing Index of mean outer canopy height 120 m window around subsampled points	
+
 Q25120sbi - Surface Bearing Index of 25th quantile of canopy height 120 m window around subsampled points	
+
 CVH120sbi - Surface Bearing Index of coefficient of variation of canopy height 120 m window around subsampled points	
+
 VCI120sbi - Surface Bearing Index of vegetation complexity index 120 m window around subsampled points	
+
 chm120sdr - Surface Area Ratio of mean outer canopy height 120 m window around subsampled points	
+
 Q25120sdr - Surface Area Ratio of 25th quantile of canopy height 120 m window around subsampled points	
+
 CVH120sdr - Surface Area Ratio of coefficient of variation of canopy height 120 m window around subsampled points	
+
 VCI120sdr - Surface Area Ratio of vegetation complexity index 120 m window around subsampled points	
+
 ndvi_60	- - Normalized difference vegetation index 120 m window around subsampled points
+
 index - Index variable for step 05. 
