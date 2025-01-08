@@ -1,9 +1,7 @@
 # GSM-SD
-GSM-SD Manuscript
 Project title: Gradient surface metrics of ecosystem structural diversity and their relationship with productivity across macrosystems
 
 Authors: Elizabeth A. LaRue (ealarue@utep.edu), Kylie M. Rezendes, Dennis Choi, Jianmin Wang, Anna G. Downing, Songlin Fei, Brady S. Hardiman
-
 
 About the data:
 Structural diversity metrics were obtained from Wang et al. 2023), which were generated from NEON AOP LiDAR. Landsat 8 Collection 2 - Level 2 data were obtained from USGS Earth Explorer or from the Microsoft Planetary Computer for the download dates specified in "Landsat8DownloadDates.xlsx". The ESRI 10 m land cover is freely available from the Planetary Computer. Randomly sampled points and GSM of structural diversity metrics and NDVI used in analyses are provided in the data folder in file "NEON28GSM_11172023.csv". All raw data are freely available for download from the sources cited in the manuscript or listed above for the 28 NEON sites used. 
@@ -11,6 +9,7 @@ Structural diversity metrics were obtained from Wang et al. 2023), which were ge
 Wang, J., Choi, D., LaRue, E., Atkins, J., Foster, J., Matthes Hatala, J., Fahey, R., Fei, S., Hardiman, B. (2023). Structural Diversity from the NEON Discrete-Return LiDAR Point Cloud in 2013-2022. Environmental Data Initiative. https://doi.org/10.6073/pasta/e02f855d69193a46571168575b35291d
 
 About the code steps: -----------------------------
+
 01_NDVI.R - Generates NDVI and employs a cloud mask to Landsat 8 downloads. 
 
 02a_resample_landcover_toSD.R; 02b_resample_landcover_toNDVI.R - Resamples ESRI 10 m landcover to match 30 m resolution of other datasets and turns non-forest cover and forest cover into a binary raster.
@@ -30,6 +29,7 @@ About the code steps: -----------------------------
 09_macrosystem_site_ANCOVA.R - Creates Table 5 and Table S1 output. 
 
 10_ExamplePanel.R - Creates a new figure of example GSM-SD rasters. Now Fig. 1
+
 
 Variable metadata for "NEON28GSM_11172023.csv" for manuscript analysis: -----------------------------
 
